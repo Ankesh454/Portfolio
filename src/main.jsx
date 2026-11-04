@@ -117,7 +117,7 @@ function App() {
     <a className="skip" href="#main">Skip to content</a><div id="cursor" aria-hidden="true" />
     <div id="opening" role="dialog" aria-label="Opening titles" hidden={stage !== 'opening'}>
       <button className="skip-intro" onClick={() => setStage('profiles')}>Skip intro</button><div className="studio">A PERSONAL PORTFOLIO</div>
-      <div className="opening-title"><h1>{c.firstName || c.name}</h1><p>THE H PORTFOLIO</p></div><img src={portrait} alt={`Portrait of ${c.name}`} />
+      <div className="opening-title"><h1>{c.firstName || c.name}</h1><p>THE A PORTFOLIO</p></div><img src={portrait} alt={`Portrait of ${c.name}`} />
       <button className="play-start primary" onClick={() => setStage('profiles')}>▶ PLAY</button>
     </div>
     <div id="profiles" role="dialog" aria-label="Choose your view" hidden={stage !== 'profiles'}>

@@ -7,7 +7,7 @@ window.PORTFOLIO = {
   location: 'Kurukshetra, India',
   email: '',
   accent: '#ed2444',
-  portrait: 'assets/portrait.svg',
+  portrait: new URL('./assets/portrait.svg', import.meta.url).href,
   alternatePortrait: '',
   links: {
     whatsapp: '',

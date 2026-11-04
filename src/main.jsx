@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import '../portfolio.config.js';
 
 const c = window.PORTFOLIO || {};
 const safeUrl = (value, image = false) => {

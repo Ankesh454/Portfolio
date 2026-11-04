@@ -113,7 +113,7 @@ window.PORTFOLIO = {
     {
       title: 'Computer Science Foundation',
       period: 'Kurukshetra University',
-      detail: 'Pursuing B.Tech, building strong fundamentals in computer science, mastering Data Structures and Algorithms with C++, and exploring system fundamentals.'
+      detail: 'Pursuing B.Tech, building strong fundamentals in computer science,Data Structures and Algorithms with C++, and exploring system fundamentals.'
     },
     {
       title: 'Full-Stack Web Engineering',
